@@ -1,8 +1,7 @@
-
 public class MandelbrotGenerator {
 	public static void main(String[] args)
 	{
-		//laaaaaa
+		//Hey, this needs to be deleeeeeteed
 	}
 
 }
