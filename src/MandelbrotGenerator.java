@@ -4,7 +4,6 @@ import java.awt.geom.Point2D;
 import java.awt.image.BufferStrategy;
 import java.util.Random;
 
-
 import javax.swing.*;
 
 public class MandelbrotGenerator extends Canvas {
@@ -58,7 +57,7 @@ int SCREEN_HEIGHT=800;
 	
 	public Point2D.Double convertToCart(Point2D.Double p){
 		double x= ( p.getX()*Math.cos(p.getY()));
-		double y= ( -p.getX()*Math.sin(p.getY()));
+		double y= ( p.getX()*Math.sin(p.getY()));
 		Point2D.Double point=new Point2D.Double(x,y);
 		return point;
 	}
